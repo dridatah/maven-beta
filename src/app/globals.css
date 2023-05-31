@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 30, 30, 30;
+}
+
+
+@font-face {
+  font-family: 'Nexa';
+  src: url(/fonts/NexaLight.otf);
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url(/fonts/NexaBold.otf);
+  font-weight: bold;
+}
+
+html {
+  font-family: 'Nexa', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  /* background: rgb(var(--background-rgb)); */
+}
