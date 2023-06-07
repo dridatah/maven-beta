@@ -15,15 +15,15 @@ export default function Hero() {
                   <Image
                     src="/images/incorpd-logo.png"
                     alt="Incorpd Logo"
-                    width={70}
-                    height={10}
+                    width={90}
+                    height={20}
                   />
                 </div>
                 <div>
-                  <h2 className="uppercase text-right tracking-widest font-semibold">
+                  <h2 className="uppercase text-right text-2xl tracking-widest font-semibold">
                     Incorpd
                   </h2>
-                  <p className="text-sm mt-10 md:mt-16 text-right text-[#BBBBBB]">
+                  <p className="mt-10 md:mt-14 text-right text-[#BBBBBB]">
                     Get started with the first step. Set up your business.
                   </p>
                 </div>
@@ -33,15 +33,15 @@ export default function Hero() {
                   <Image
                     src="/images/infin-logo.png"
                     alt="Incorpd Logo"
-                    width={75}
-                    height={75}
+                    width={120}
+                    height={120}
                   />
                 </div>
                 <div>
-                  <h2 className="uppercase text-right tracking-widest font-semibold">
+                  <h2 className="uppercase text-right text-2xl tracking-widest font-semibold">
                     Infin
                   </h2>
-                  <p className="text-sm mt-10 md:mt-16 text-right text-[#BBBBBB]">
+                  <p className="mt-10 md:mt-14 text-right text-[#BBBBBB]">
                     Get started with the first step. Set up your business.
                   </p>
                 </div>

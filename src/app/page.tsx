@@ -18,7 +18,7 @@ export default function Home() {
       <InfinCTA />
       <Community />
       <CTA />
-      <Mavenstry />
+      {/* <Mavenstry /> */}
       <Footer />
     </main>
   );

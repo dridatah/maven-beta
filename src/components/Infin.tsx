@@ -12,7 +12,7 @@ export default function Infin() {
                 <Image src="/images/infin-preview.png" alt="" fill />
               </div>
 
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <div>
                   <Badge title="Download Report" />
                   <Badge title="Status Tracking" />
@@ -27,14 +27,14 @@ export default function Infin() {
                   <Badge title="Sales/Profit Analysis" />
                   <Badge title="Income/ Expense Tracker" />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="order-1 md:order-2">
             <h2 className="uppercase text-2xl tracking-widest mb-6 text-infin">
               Infin
             </h2>
-            <h3 className="text-4xl md:text-5xl whitespace-pre-line leading-tight mb-10 font-semibold">
+            <h3 className="text-4xl md:text-5xl whitespace-pre-line leading-tight mb-8 font-semibold">
               {`Interface that 
                 automates your 
                 monotonous 
