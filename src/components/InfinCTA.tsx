@@ -7,7 +7,7 @@ type CTACardPropsType = {
 };
 function CTACard({ title, desc, children }: CTACardPropsType) {
   return (
-    <div className="group mt-auto h-72 rounded-2xl bg-[#333333] p-0.5 text-center">
+    <div className="group mt-auto h-72 rounded-2xl bg-[#333333] p-0.5 text-center mb-6 md:mb-0">
       <div className="h-full rounded-2xl bg-primary p-6">
         <span className="mx-auto mb-2 flex h-16 w-16 items-center justify-center rounded-full bg-secondary/40">
           {children}
@@ -24,7 +24,7 @@ export default function InfinCTA() {
     <section className="bg-secondary">
       <div className="bg-infin bg-fixed py-20 bg-cover bg-[right_10rem] md:bg-center">
         <div className="container mx-auto">
-          <div className="grid grid-cols-3 gap-6">
+          <div className="md:grid grid-cols-3 gap-6">
             <CTACard
               title="Get Set Go"
               desc="Add a customer, generate invoices and collect money seamlessly and effortlessly."

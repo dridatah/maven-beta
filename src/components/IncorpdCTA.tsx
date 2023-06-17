@@ -7,7 +7,7 @@ type CTACardPropsType = {
 };
 function CTACard({ title, desc, children }: CTACardPropsType) {
   return (
-    <div className="group mt-auto h-72 rounded-2xl bg-[#333333] p-0.5 text-center">
+    <div className="group mt-auto h-72 rounded-2xl bg-[#333333] p-0.5 text-center mb-6 md:mb-0">
       <div className="h-full rounded-2xl bg-primary p-6">
         <span className="mx-auto mb-2 flex h-16 w-16 items-center justify-center rounded-full bg-secondary/40">
           {children}
@@ -24,7 +24,7 @@ export default function IncorpdCTA() {
     <section className="bg-secondary">
       <div className="bg-incorpd bg-fixed bg-fill bg-[right_10rem] md:bg-center py-20">
         <div className="container mx-auto">
-          <div className="grid grid-cols-3 gap-6">
+          <div className="md:grid grid-cols-3 gap-6">
             <CTACard
               title="Automated Process"
               desc="Enter your information, upload essential documents, then sit back & watch your company come to life."
