@@ -9,49 +9,52 @@ export default function Hero() {
             <p className="text-2xl text-center md:text-left md:text-xl mb-12">
               Pick an app to get started
             </p>
-            <div className="md:grid md:grid-cols-2 gap-14 mb-16 ">
-              <div className="flex justify-between gap-6 md:gap-10 bg-[#1f1f1f] px-8 py-10 rounded-xl w-72 md:w-96 ml-auto">
-                <div>
-                  <Image
-                    src="/images/incorpd-logo.png"
-                    alt="Incorpd Logo"
-                    width={90}
-                    height={20}
-                  />
-                </div>
-                <div>
+            <div className="md:grid md:grid-cols-2 gap-6 mb-16">
+              <div className="bg-[#1f1f1f] px-8 pt-10 pb-8 rounded-xl">
+                <div className="flex justify-between">
+                  <div className="relative w-16 h-12">
+                    <Image
+                      src="/images/incorpd-logo.png"
+                      alt="Incorpd Logo"
+                      fill
+                    />
+                  </div>
+
                   <h2 className="uppercase text-right text-2xl tracking-widest font-semibold">
                     Incorpd
                   </h2>
-                  <p className="mt-10 md:mt-14 text-right text-[#BBBBBB]">
-                    Get started with the first step. Set up your business.
+                </div>
+                <div>
+                  <p className="mt-10 text-right text-[#BBBBBB]">
+                    Register your Business Hassle-free with incorpd.
                   </p>
                 </div>
               </div>
-              <div className="flex justify-between gap-6 md:gap-10 bg-[#1f1f1f] px-8 py-10 rounded-xl w-72 md:w-96 mt-8 md:mt-0">
-                <div>
-                  <Image
-                    src="/images/infin-logo.png"
-                    alt="Incorpd Logo"
-                    width={120}
-                    height={120}
-                  />
-                </div>
-                <div>
+              <div className="bg-[#1f1f1f] px-8 pt-10 pb-8 rounded-xl mt-8 md:mt-0">
+                <div className="flex justify-between">
+                  <div className="relative w-16 h-10">
+                    <Image
+                      src="/images/infin-logo.png"
+                      alt="Incorpd Logo"
+                      fill
+                    />
+                  </div>
                   <h2 className="uppercase text-right text-2xl tracking-widest font-semibold">
                     Infin
                   </h2>
-                  <p className="mt-10 md:mt-14 text-right text-[#BBBBBB]">
-                    Get started with the first step. Set up your business.
+                </div>
+                <div>
+                  <p className="mt-10 text-right text-[#BBBBBB]">
+                    Make bookkeeping a breeze.
                   </p>
                 </div>
               </div>
             </div>
-            <button className="bg-gray-100 py-1.5 px-6 rounded-xl w-44">
+            {/* <button className="bg-gray-100 py-1.5 px-6 rounded-xl w-44">
               <p className="text-transparent bg-clip-text text-sm bg-gradient-to-r from-[#ED3446] to-[#2A69C4]  font-semibold">
                 Download Report
               </p>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

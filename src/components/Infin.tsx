@@ -35,15 +35,10 @@ export default function Infin() {
               Infin
             </h2>
             <h3 className="text-4xl md:text-5xl whitespace-pre-line leading-tight mb-8 font-semibold">
-              {`Interface that 
-                automates your 
-                monotonous 
-                financial works`}
+              {`Make bookkeeping a breezey.`}
             </h3>
             <p className="text-lg whitespace-pre-line leading-snug">
-              {`Are you a Business Owner, Enterpreneur
-                or an SME ?. We are the right choice for 
-                your incorporation needs.`}
+              {`Infin makes maintaining your business accounts unbelievably simple, intuitive and enjoyable.`}
             </p>
           </div>
         </div>

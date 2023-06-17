@@ -5,7 +5,7 @@ export default function Incorpd() {
   return (
     <section className="bg-primary py-16 md:py-24">
       <div className="container mx-auto">
-        <div className="grid md:grid-cols-2 gap-16">
+        <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="flex flex-col items-end order-2">
             <div className="w-full">
               <div className="relative h-52 md:h-72">
@@ -29,14 +29,10 @@ export default function Incorpd() {
               Incorpd
             </h2>
             <h3 className="text-4xl md:text-5xl whitespace-pre-line leading-tight mb-8 font-semibold">
-              {`A must have
-                tool tailored for
-                Entrepreneurs.`}
+              {`Register your Business Hassle-free with incorpd.`}
             </h3>
             <p className="text-lg whitespace-pre-line leading-snug">
-              {`Are you a Business Owner, Enterpreneur
-                or an SME ?. We are the right choice for 
-                your incorporation needs.`}
+              {`Incorpd helps starting a company in India as easy as using social media.`}
             </p>
           </div>
         </div>
