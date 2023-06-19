@@ -85,9 +85,12 @@ export default function InfinCTA() {
           </div>
 
           <div className="flex justify-center">
-            <button className="bg-infin/80 text-white pt-4 text-lg pb-3 px-8 rounded-xl mt-16 font-semibold hover:bg-infin/90">
-              Manage your business
-            </button>
+            <a
+              className="bg-infin/80 text-white pt-4 text-lg pb-3 px-8 rounded-xl mt-16 font-semibold hover:bg-infin/90"
+              href="https://app.infin.one/login/"
+            >
+              Manage your Accounts
+            </a>
           </div>
         </div>
       </div>

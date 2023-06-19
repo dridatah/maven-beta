@@ -35,7 +35,7 @@ export default function Infin() {
               Infin
             </h2>
             <h3 className="text-4xl md:text-5xl whitespace-pre-line leading-tight mb-8 font-semibold">
-              {`Make bookkeeping a breezey.`}
+              {`Make bookkeeping a breeze.`}
             </h3>
             <p className="text-lg whitespace-pre-line leading-snug">
               {`Infin makes maintaining your business accounts unbelievably simple, intuitive and enjoyable.`}

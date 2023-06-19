@@ -95,9 +95,13 @@ export default function IncorpdCTA() {
           </div>
 
           <div className="flex justify-center">
-            <button className="bg-incorpd/70 text-white pt-4 text-lg pb-3 px-8 rounded-xl mt-16 font-semibold hover:bg-incorpd/90">
+            <a
+              className="bg-incorpd/70 text-white pt-4 text-lg pb-3 px-8 rounded-xl mt-16 font-semibold hover:bg-incorpd/90"
+              href="https://incorpd.ai/"
+              target="_blank"
+            >
               Start a company
-            </button>
+            </a>
           </div>
         </div>
       </div>
